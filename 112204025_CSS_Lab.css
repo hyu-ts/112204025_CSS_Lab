@@ -1,0 +1,88 @@
+@media all {
+    body {
+        color: #5b5b74;
+        background-color: #F5F5F5;
+        font-family: 'Garamond', serif;
+        padding: 0;
+        line-height: 1.6;
+        margin: 0;
+    }
+
+    h1 {
+        font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+        color: #B0C4DE;
+        background-color:#404d5f;
+        text-align: center;
+        margin-top: 40px;
+        margin: 0;
+    }
+    h2 {
+        text-align: center;
+        font-weight: bold;
+        background-color:#B0C4DE;
+        padding: 10px 20px;
+        margin: 0;
+    }
+    h3 {
+        text-align: center;
+        background-color:#d5c28e;
+        margin: 0;
+    }
+
+    /* Navigation styles */
+    .navbar {
+        list-style: none;
+        background-color: #e5e5e5;
+        padding: 0px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+
+    ul {
+    position: relative;
+    }
+
+    li {
+        display: inline;
+    }
+
+    li a {
+        text-decoration: none;
+        color: #6D3A45;
+    }
+
+    .Services .dropdown-content {
+            display: block; /* Hide the dropdown by default */
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+
+    .Services:hover .dropdown-content {
+        display: block; /* Show the dropdown when hovering over the suv item */
+        }
+
+    .dropdown-content li {
+        padding: 12px 0px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content li:hover {
+        background-color: #f1f1f1;
+    }
+
+    p {
+        padding: 0 10px;
+    }
+}
+
+@media print {
+    h1,h2,h3,body {
+        font-size: 12pt;
+        color: black;
+    }
+}
